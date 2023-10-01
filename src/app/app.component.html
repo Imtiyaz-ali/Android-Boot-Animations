@@ -1,0 +1,35 @@
+
+<div style="z-index: 999;" class="h-screen w-full bg-white relative flex overflow-hidden">
+
+  <!-- Sidebar -->
+  <aside class="h-full w-16 flex flex-col space-y-10 items-center justify-center relative bg-gray-800 text-white">
+
+    <div routerLinkActive="active" routerLink="/home" class="bg-gray-800 h-10 w-10 flex items-center justify-center rounded-lg cursor-pointer hover:text-gray-800 hover:bg-white  hover:duration-300 hover:ease-linear focus:bg-white">
+      <i class='fa fa-home'></i>
+    </div>
+
+    <!-- Courses -->
+    <div routerLinkActive="active" routerLink="/about" class="h-10 w-10 flex items-center justify-center rounded-lg cursor-pointer hover:text-gray-800 hover:bg-white  hover:duration-300 hover:ease-linear focus:bg-white">
+      <i class='fa fa-question'></i>
+    </div>
+
+    <!-- Configuration -->
+    <div class="h-10 w-10 flex items-center justify-center rounded-lg cursor-pointer hover:text-gray-800 hover:bg-white  hover:duration-300 hover:ease-linear focus:bg-white">
+      <i class='fa fa-handshake'></i>
+    </div>
+  </aside>
+
+  
+ 
+  <div class="w-full h-full flex flex-col justify-between">
+
+    <main class="max-w-full h-full flex relative overflow-y-hidden">
+
+       <div class="h-full w-full m-4 flex flex-wrap items-start justify-start rounded-tl grid-flow-col auto-cols-max gap-4 overflow-y-scroll">
+
+        <router-outlet></router-outlet>
+      </div> 
+    </main>
+  </div>
+
+</div>

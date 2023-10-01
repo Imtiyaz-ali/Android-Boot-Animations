@@ -1,0 +1,42 @@
+
+
+<div  class="row">
+	<div *ngFor="let i of actualData" class="col-md-3 col-sm-6">
+<div class="product-grid">
+<div class="product-image">
+	<a href="#" class="image">
+		<img class="pic-1" src="assets/test.jpg">
+	</a>
+	<span class="product-discount-label">{{i.downloads}} <i class="fa fa-download" aria-hidden="true"></i></span>
+	<span class="heart-discount-label">{{i.likes}} <i class="fa fa-heart" aria-hidden="true"></i></span>
+	<ul class="product-links">
+		<li><a  data-tip="Add To Liked"><button (click)="openSnackBar('In Development','close;')"><i class="fas fa-heart"></i></button></a></li>
+		<li><a data-tip="Quick View"><button (click)="openSnackBar('In Development','close;')"><i class="fa fa-search"></i></button></a></li>
+
+
+
+
+	</ul>
+</div>
+<div class="product-content">
+	<!-- <ul class="rating">
+		<li class="fas fa-star"></li>
+		<li class="fas fa-star"></li>
+		<li class="fas fa-star"></li>
+		<li class="far fa-star"></li>
+		<li class="far fa-star"></li>
+	</ul> -->
+	<h3 class="title"><a href="#">Men's Blazer</a></h3>
+	<hr style="color: #000;
+	height: -4px;
+	border-style: solid;
+	border-width: 1px;">
+	<div class="paragraph-container">
+		<p>
+		  This is a long paragraph of text that you want to limit to two lines. 
+		  It will be truncated with an ellipsis if it exceeds two lines.
+		</p>
+	  </div>
+</div>
+</div>
+</div>

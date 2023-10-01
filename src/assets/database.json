@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "name": "Item 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "likes": 0,
+        "downloads": 20,
+        "src": "https://example.com/item1",
+        "image": "assets/test.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Item 2",
+        "description": "Sed do eiusmod tempor inc unt ut labore et dolore magna aliqua.",
+        "likes": 32,
+        "downloads": 15,
+        "src": "https://example.com/item2",
+        "image": "assets/test.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Item 3",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        "likes": 78,
+        "downloads": 42,
+        "src": "https://example.com/item3",
+        "image": "assets/test.jpg"
+    },{
+        "id": 4,
+        "name": "Item 2",
+        "description": "Sed do eiusmod tempor inc unt ut labore et dolore magna aliqua.",
+        "likes": 32,
+        "downloads": 15,
+        "src": "https://example.com/item2",
+        "image": "assets/test.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Item 3",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        "likes": 78,
+        "downloads": 42,
+        "src": "https://example.com/item3",
+        "image": "assets/proxy.webp"
+    }
+]
